@@ -9,7 +9,7 @@ The paper can be found in paper/UniformGAN.pdf
 
 One of the challenges faced in synthetic data generation is aptly modeling the raw data; transforming it into numerical, and specifying the hyper-parameters such as which columns are categorical, mixed type, numerical or log distributed is a non-trivial task. Another difficult task is making estimations about the underlying distributions of the data and how these different distributions are correlated.
 
-The UniformGAN model extends the novel [CTAB-GAN](https://github.com/Team-TUD/CTAB-GAN) model to add the flexibility of the probability integral transform idea from [copulaGAN ]([https://github.com/sdv-dev/SDV](https://github.com/sdv-dev/SDV/blob/master/sdv/tabular/copulagan.py)
+The UniformGAN model extends the novel [CTAB-GAN](https://github.com/Team-TUD/CTAB-GAN) model to add the flexibility of the probability integral transform idea from [copulaGAN ](https://github.com/sdv-dev/SDV/blob/master/sdv/tabular/copulagan.py)
 
 CTAB-GAN leverages a mixed-type encoder, training by sampling and treats long tails. CopulaGAN makes use of a numerical encoder and uses a probabilistic transformation to make capture the dependence structure of the variables without any affect on the margins. UniformGAN aims to combine both these methods in order to remove the time-consuming hyper-parameter tuning of conditional tabular GAN and simultaneously improve the training time without sacrificing synthesizing quality.
 
