@@ -24,5 +24,7 @@ is the side size of image. You can enlarge the list to [4, 8, 16, 24, 32, 64] or
 
 ## Setup
 
+```
 pip install -r requirements.txt
 python run.py
+```
