@@ -28,3 +28,7 @@ is the side size of image. You can enlarge the list to [4, 8, 16, 24, 32, 64] or
 pip install -r requirements.txt
 python run.py
 ```
+
+## Additional Datasets
+
+A list of datasets with metadata can be found in the s3 bucket from the synthetic data vault [SDV](https://sdv-datasets.s3.amazonaws.com/index.html)
